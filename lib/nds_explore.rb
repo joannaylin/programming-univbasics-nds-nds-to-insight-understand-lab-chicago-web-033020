@@ -8,6 +8,8 @@ def pretty_print_nds(nds)
   pp nds
 end
 
+pp directors_database
+
 def print_first_directors_movie_titles
   spielberg = directors_database[0][:movies]
   #first director is spielberg, can find using index 0 to find him, and use symbol :movies to find all movies
